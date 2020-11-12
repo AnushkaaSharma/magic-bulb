@@ -131,6 +131,7 @@ class Buttons extends React.Component{
                   <Button color='blue bulb-btn' disabled={this.state.loading} loading={this.state.loading && this.state.buttonLoading==='BLUE'} className='m-4' onClick={()=>this.handlerSendTransaction('BLUE')}>Blue</Button>
                   <Button color='yellow bulb-btn' disabled={this.state.loading} loading={this.state.loading && this.state.buttonLoading==='YELLOW'} className='m-4' onClick={()=>this.handlerSendTransaction('YELLOW')}>Yellow</Button>
                   <Button color='white bulb-btn' disabled={this.state.loading} loading={this.state.loading && this.state.buttonLoading==='WHITE'} className='m-4' onClick={()=>this.handlerSendTransaction('WHITE')}>White</Button>
+                  
                 </div>
 
 

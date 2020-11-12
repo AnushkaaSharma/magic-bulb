@@ -2,7 +2,7 @@ from iconservice import *
 
 TAG = 'Magic'
 
-COLORS = ["RED","GREEN","BLUE","YELLOW"]
+COLORS = ["RED","GREEN","BLUE","YELLOW","WHITE"]
 
 
 class Magic(IconScoreBase):
