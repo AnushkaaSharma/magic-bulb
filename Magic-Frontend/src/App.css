@@ -80,10 +80,33 @@
     width:50px;
     overflow: hidden;
     text-overflow: ellipsis; 
+    text-align:center;
+    
 }
-.card:hover, .info:hover{
+.card:hover{
+   
+    width:450px;
+    background:black;
+  
+    text-decoration-color: fff;
+    text-align:center;
+    border-radius:5px;
+    padding:5px, 0;
+}
+.info:hover{
+    width:500px;
+    background:white;
+    text-align:center;
+    border-radius:5px;
+    padding:5px, 0;
+    
+}
+
+
+/*.card:hover, .info:hover{
     overflow:visible;
-}
+  
+}*/
 
 @media only screen and (max-width: 600px) {
   .faucet {

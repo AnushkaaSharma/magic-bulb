@@ -34,13 +34,16 @@ export default function Login() {
               <Header.Content>{metaData.userMetadata.email}</Header.Content>
             </Card.Header>
         <div className='card'>
+          
             <Card.Meta textAlign='center' >
               <div class='col-md-6'>
                 <a href={`https://bicon.tracker.solidwallet.io/address/${addressData.publicAddress}`} rel="noopener noreferrer" target="_blank">
                   {addressData.publicAddress}
                 </a>
+                
                 </div>
             </Card.Meta>
+            
             </div>
             
             
