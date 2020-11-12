@@ -3,6 +3,7 @@ import Buttons from './Buttons';
 // import Light from './Light';
 import Login from './Login';
 import MagicProvider from './helpers/magicProvider';
+import Table from './Table';
 
 import './App.css';
 import 'semantic-ui-css/semantic.min.css';
@@ -25,14 +26,15 @@ class App extends React.Component{
                 <h1 className='mainHeader'>MAGIC BULB</h1>
                 </Card>
                 
-            
+        
             <div className='faucet'>
+               
                 <a href='https://icon-faucet.ibriz.ai/' rel="noopener noreferrer" target="_blank">Testnet ICX Faucet</a>
+               
                 </div>
                 
-                
-           
-            </div>
+                </div>
+            
             
             <div className='row appContainer pt-3'>
                 
@@ -45,6 +47,13 @@ class App extends React.Component{
                 </div>
                 
             </div>
+            <div className='row col-md-4' >
+                <div class='container'>
+                    <Table />
+                </div>
+                
+            </div>
+            
         </MagicProvider>
         );
     };

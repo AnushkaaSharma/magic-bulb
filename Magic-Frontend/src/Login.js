@@ -33,12 +33,16 @@ export default function Login() {
               <FaUserCircle size={32}/> 
               <Header.Content>{metaData.userMetadata.email}</Header.Content>
             </Card.Header>
-
+        <div className='card'>
             <Card.Meta textAlign='center' >
+              <div class='col-md-6'>
                 <a href={`https://bicon.tracker.solidwallet.io/address/${addressData.publicAddress}`} rel="noopener noreferrer" target="_blank">
                   {addressData.publicAddress}
                 </a>
+                </div>
             </Card.Meta>
+            </div>
+            
             
             <Card.Meta textAlign='center'>
               Balance:{JSON.stringify(userBalance.balance).replace(/"/g,'')} ICX
